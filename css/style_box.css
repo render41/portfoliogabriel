@@ -1,0 +1,35 @@
+/*Box Content*/
+.box {
+    background: var(--bg-color);
+    padding: 35px 45px;
+    border-radius: 35px;
+    box-shadow: 5px 10px 10px rgba(204, 204, 204, 0.11);
+    transition: all .45s ease-in-out;
+}
+
+.box img {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.box p {
+    color: var(--second-color);
+    font-size: 1rem;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 10px 10px rgba(204, 204, 204, 0.22);
+}
+/*End Box Content*/
