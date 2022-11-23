@@ -191,6 +191,21 @@ section {
 	transform: scale(1.06);
 }
 
+.clayde-image img {
+	animation: MoveUpDown 3s ease-in-out infinite;
+	position: relative;
+}
+
+@keyframes MoveUpDown {
+	0%,
+	100% {
+		bottom: 0;
+	}
+	50% {
+		bottom: 100px;
+	}
+}
+
 /*About Layout*/
 header.sticky {
 	background: var(--bg-color);
@@ -483,6 +498,7 @@ footer {
 		font-size: 20px;
 		transition: all 0.45s ease;
 		color: var(--text-color);
+		padding: 10px 0px;
 	}
 
 	.navlist a:hover {
